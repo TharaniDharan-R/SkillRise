@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "31b7c3d46de1b1aec580a42e",
+      "name": "qwerty",
+      "email": "qwerty@gmail.com",
+      "goal": "",
+      "domainIds": [
+        "java",
+        "frontend"
+      ],
+      "passwordHash": {
+        "salt": "6b24f88f4b4ec4a082a085b20eeea94b",
+        "hash": "61b2e45fd237238ec324f3b444fc5823f6bb330436b47c0bb669ac30e8973e034ab16dbf06384046a8fe4e98528b354f0a50b3471a4f3556640089cf003d9eab"
+      },
+      "progress": {
+        "domainIds": [
+          "java",
+          "frontend"
+        ],
+        "xp": 35,
+        "completedTopics": {
+          "java:what-is-java": true
+        },
+        "startedAt": "2026-05-19T13:53:55.124Z",
+        "savedAt": "2026-05-19T13:54:23.401Z"
+      },
+      "createdAt": "2026-05-19T13:53:55.124Z"
+    },
+    {
+      "id": "fcc973e763e0def4b13c5970",
+      "name": "tharanii",
+      "email": "tharanii@gmail.com",
+      "goal": "",
+      "domainIds": [
+        "java",
+        "backend",
+        "fullstack"
+      ],
+      "passwordHash": {
+        "salt": "737668ad3a1bd1e91339032cbe233ce7",
+        "hash": "73f165d66fdd5b40068e5f83c4c1236904a54a621652d654d4d0aa00437e9988f51759a9211a6dd7159d9461607310b6c3fcd64f745cc96e7e9536018c27701f"
+      },
+      "progress": {
+        "domainIds": [
+          "java",
+          "backend",
+          "fullstack"
+        ],
+        "xp": 0,
+        "completedTopics": {},
+        "startedAt": "2026-05-19T13:57:07.371Z"
+      },
+      "createdAt": "2026-05-19T13:57:07.371Z"
+    },
+    {
+      "id": "7076ca1a572f5b10bd7e5188",
+      "name": "sarvesh",
+      "email": "sarvesh@gmail.com",
+      "goal": "",
+      "domainIds": [
+        "java",
+        "frontend",
+        "backend"
+      ],
+      "passwordHash": {
+        "salt": "b223f1a3a89c025c8eced0043eb1def7",
+        "hash": "2ee86085def428177ff9401ae909038c9b3518ed4add36fcd55989c55bc2276247325fcf7f0fd86acedf1e0e69def8de31f0f516e258f1133c75d6e296f2e885"
+      },
+      "progress": {
+        "domainIds": [
+          "java",
+          "frontend",
+          "backend"
+        ],
+        "xp": 105,
+        "completedTopics": {
+          "java:what-is-java": true,
+          "java:variables-datatypes": true,
+          "java:operators-input": true
+        },
+        "startedAt": "2026-05-19T13:59:33.544Z",
+        "savedAt": "2026-05-19T14:00:29.141Z"
+      },
+      "createdAt": "2026-05-19T13:59:33.544Z"
+    },
+    {
+      "id": "b64c0ab91b837efc21a33bf0",
+      "name": "aqws",
+      "email": "aqws@gmail.com",
+      "goal": "",
+      "domainIds": [
+        "java"
+      ],
+      "passwordHash": {
+        "salt": "ad9a1cc3367381cc4ab42938d4bbc5b6",
+        "hash": "9514796878b486bd2793db6596fa5682210a3019728dbceabdf104ac3230eaa661bfdcd8edad6a913f40603093823ca59e5f0693a89ab88b8a94c2c65916586d"
+      },
+      "progress": {
+        "domainIds": [
+          "java"
+        ],
+        "xp": 0,
+        "completedTopics": {},
+        "startedAt": "2026-06-10T12:42:17.495Z"
+      },
+      "createdAt": "2026-06-10T12:42:17.495Z"
+    }
+  ]
+}
