@@ -1,16 +1,43 @@
-# React + Vite
+# SkillRise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkillRise is a learning progress tracker built with React, Vite, and a simple Node.js backend. It helps learners explore technology domains, follow a roadmap, track completed topics, and earn XP as they progress.
 
-Currently, two official plugins are available:
+## Features
+- User registration and login
+- Learning dashboard with progress overview
+- Roadmap and topic detail pages
+- XP and completed-topic tracking
+- Local progress storage with backend sync support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- Frontend: React, Vite, JavaScript, Tailwind CSS
+- UI helpers: lucide-react, framer-motion
+- Backend: Node.js HTTP server
+- Storage: JSON file store + browser local storage
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+### 2. Start the frontend
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Start the backend API
+npm run server
+
+The frontend typically runs on http://localhost:5173 and the backend API on http://127.0.0.1:4000.
+
+## Project Structure
+- src/pages/ — dashboard, roadmap, achievements, register, topic detail screens
+- src/components/ — reusable cards and progress visuals
+- src/data/ — domain and curriculum content
+- src/api/ — API client for authentication and progress updates
+- backend/ — Node.js API server and user data storage
+
+## Notes
+- The backend uses a simple JSON file store for demo purposes.
+- You can update the learning content in src/data/domains.js and src/data/javaCurriculum.js.
+
+## License
+This project is for learning and portfolio use.
